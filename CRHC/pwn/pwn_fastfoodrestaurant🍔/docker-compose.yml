@@ -1,0 +1,6 @@
+services:
+  pwn-fastfood:
+    build: .
+    ports:
+      - '21101:21101'
+    restart: "always"

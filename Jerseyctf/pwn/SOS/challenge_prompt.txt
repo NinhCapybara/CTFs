@@ -1,0 +1,11 @@
+LOST ASTRONAUT // SOS RECOVERY
+
+oh noooo one of our astronauts drifted away during a moonwalk.
+Mission control only got one boring looking message back, but they think
+the real SOS is hiding somewhere inside it.
+
+Files recovered:
+- astro_beacon
+- sos_message.txt
+
+Find the hidden message and bring them home.
