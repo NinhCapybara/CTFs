@@ -1,0 +1,1 @@
+picoCTF{xor_unpack_4nalys1s_78c0e704}

@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Geolocate IP Addresses",
+  "version": "1.0",
+  "description": "CTF demo add-on that geolocates IPs and showcases extension privacy risks.",
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "icons/icon-32.png",
+    "default_title": "Pico Geolocate IP Addresses",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "64": "icons/icon-64.png"
+  },
+  "permissions": [
+    "webNavigation"
+  ],
+  "background": {
+    "scripts": [
+      "background/main.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{2cb96647-aa7a-4da8-a6c1-0f779c51d33b}",
+      "strict_min_version": "58.0"
+    }
+  }
+}
