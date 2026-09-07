@@ -1,0 +1,15 @@
+name: "fileparser-dev"
+
+configs:
+  flag:
+    content: "NNS{test_flag}"
+
+services:
+  fileparser:
+    build: "."
+    configs:
+      - source: flag
+        target: "/flag.txt"
+        mode: 0444
+    ports:
+      - "127.0.0.1:1337:1337"
